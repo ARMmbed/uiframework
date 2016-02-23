@@ -1,0 +1,19 @@
+{
+  "name": "uiframework",
+  "version": "3.0.0",
+  "description": "Collection of UI components for the Wearable Reference Design.",
+  "author": "Marcus Chang <marcus.chang@arm.com>",
+  "homepage": "https://github.com/ARMmbed/uikit",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "dependencies": {
+    "mbed-drivers": "~0.12.0",
+    "uif-framebuffer": "^1.0.0",
+    "uif-matrixlcd": "^4.0.0",
+    "mbed-time": "^1.0.0"
+  }
+}
