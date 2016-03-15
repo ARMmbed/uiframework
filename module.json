@@ -1,6 +1,6 @@
 {
   "name": "uiframework",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Collection of UI components for the Wearable Reference Design.",
   "author": "Marcus Chang <marcus.chang@arm.com>",
   "homepage": "https://github.com/ARMmbed/uikit",
