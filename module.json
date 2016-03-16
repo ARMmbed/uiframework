@@ -11,9 +11,9 @@
     }
   ],
   "dependencies": {
-    "mbed-drivers": "~0.12.0",
-    "uif-framebuffer": "^1.0.0",
-    "uif-matrixlcd": "^4.0.0",
+    "mbed-drivers": "^1.0.0",
+    "uif-framebuffer": "^2.0.0",
+    "uif-matrixlcd": "^5.0.0",
     "mbed-time": "^1.0.0"
   }
 }
