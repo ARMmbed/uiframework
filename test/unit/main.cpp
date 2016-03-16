@@ -27,6 +27,7 @@
 #include "uif-tools-1bit/fonts/fonts.h"
 
 // screen
+static uif::MatrixLCD lcd;
 static SharedPointer<UIFramework> uiFramework;
 
 static uint32_t counter = 0;
@@ -45,9 +46,9 @@ void app_start(int, char *[])
     SharedPointer<UIView> view(new UITextView(hello, &Font_Menu));
 //    SharedPointer<UIView> view(new UITextMonitorView<uint32_t>((uint32_t*) &(counter), "%d", &Font_Menu));
 
-    view->setInverse(false);
+    view->setInverse(true);
     view->setWidth(128);
     view->setHeight(128);
 
-    uiFramework = SharedPointer<UIFramework>(new UIFramework(view));
+    uiFramework = SharedPointer<UIFramework>(new UIFramework(lcd, view));
 }
